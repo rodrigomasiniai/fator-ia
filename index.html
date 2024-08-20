@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fator IA</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #222;
+            background: #000;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background: #001;
+        }
+
+        .logo {
+            font-size: 2em;
+            color: #577;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap; /* Allow wrapping to multiple lines */
+            justify-content: center; 
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #577;
+            text-transform: uppercase;
+            text-decoration: none;
+            letter-spacing: 2px;
+        }
+
+        .cta {
+            background: #255;
+            padding: 10px 20px;
+            border-radius: 10px;
+            color: #001;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            white-space: nowrap; /* Prevent button text from wrapping */
+        }
+
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: url('https://source.unsplash.com/1600x900/001') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .hero-text {
+            font-size: 4em;
+            color: #fff;
+        }
+
+        .hero-subtext {
+            font-size: 1.5em;
+            color: #577;
+        }
+
+        .cta-hero {
+            background: #255;
+            padding: 20px;
+            border-radius: 10px;
+            color: #001;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column; /* Stack header elements vertically */
+                align-items: flex-start; /* Align items to the left */
+            }
+
+            nav {
+                justify-content: flex-start; /* Align navigation to the left */
+                margin-top: 10px; /* Add space above navigation */
+                width: 100%; /* Make navigation span full width */
+            }
+
+            nav a {
+                margin: 5px 0; /* Adjust margins for vertical arrangement */
+                font-size: 14px;
+            }
+
+            .cta {
+                margin-top: 10px; /* Add space above the button */
+            }
+
+            .hero-text {
+                font-size: 2em;
+            }
+
+            .hero-subtext {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Fator IA</div>
+        <nav>
+            <a href="#">Visão</a>
+            <a href="#">Transformação</a>
+            <a href="#">Inovação</a>
+            <a href="#">Pesquisa</a>
+            <a href="#">Apresentações</a>
+            <a href="#">Subsidiárias</a>
+        </nav>
+        <div class="cta">Entenda a proposta</div> 
+    </header>
+    <section class="hero">
+        <div class="hero-text">Liderando a construção de um novo amanhã</div>
+        <div class="hero-subtext">Usando a ciência da adaptabilidade e cooperação</div>
+        <div class="cta-hero">O Grupo Fator IA</div>
+    </section>
+    
+</body>
+</html>
+
